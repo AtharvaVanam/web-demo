@@ -5,11 +5,11 @@ products.forEach(product => {
   div.classList.add("product");
 
   div.innerHTML = `
-    <img src="${product.image}" width="150"><br>
-    <h3>${product.name}</h3>
-    <p>₹${product.price}</p>
-    <button onclick="addToCart(${product.id})">Add to Cart</button>
-  `;
+  <img src="${product.image}" width="180">
+  <h3>${product.name}</h3>
+  <p>₹${product.price}</p>
+  <button>Add to Cart</button>
+`;
 
   container.appendChild(div);
 });
