@@ -1,0 +1,13 @@
+body {
+  font-family: Arial;
+  background: #0a0a0a;
+  color: white;
+  text-align: center;
+}
+
+.product {
+  border: 1px solid #333;
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+}
