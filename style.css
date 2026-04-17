@@ -62,3 +62,51 @@ button {
 button:hover {
   opacity: 0.8;
 }
+
+.hero {
+  height: 80vh;
+  background: url("https://picsum.photos/1200/800") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-content {
+  text-align: center;
+  background: rgba(0,0,0,0.5);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.hero h1 {
+  font-size: 50px;
+  margin: 0;
+}
+
+.hero p {
+  margin: 10px 0;
+  color: #ccc;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.navbar h2 {
+  margin: 0;
+}
+
+.navbar a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.2s;
+}
+
+.navbar a:hover {
+  color: #00ffcc;
+}
