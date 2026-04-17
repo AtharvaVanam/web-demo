@@ -65,7 +65,7 @@ button:hover {
 
 .hero {
   height: 80vh;
-  background: url("https://picsum.photos/1200/800") center/cover no-repeat;
+background: url("https://images.unsplash.com/photo-1523381210434-271e8be1f52b") center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
